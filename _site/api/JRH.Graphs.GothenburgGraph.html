@@ -1,0 +1,573 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class GothenburgGraph
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class GothenburgGraph
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="JRH.Graphs.GothenburgGraph">
+  
+  
+  <h1 id="JRH_Graphs_GothenburgGraph" data-uid="JRH.Graphs.GothenburgGraph" class="text-break">Class GothenburgGraph
+  </h1>
+  <div class="markdown level0 summary"><p>哥德堡多面体数据结构</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="JRH.Graphs.PolyhedronGraph.html">PolyhedronGraph</a></div>
+    <div class="level2"><span class="xref">GothenburgGraph</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="JRH.Serialize.ISerializable.html">ISerializable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="JRH.Graphs.PolyhedronGraph.html#JRH_Graphs_PolyhedronGraph_Polygons">PolyhedronGraph.Polygons</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="JRH.Graphs.html">JRH.Graphs</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="JRH_Graphs_GothenburgGraph_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class GothenburgGraph : PolyhedronGraph, ISerializable</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="JRH_Graphs_GothenburgGraph_EdgeCount" data-uid="JRH.Graphs.GothenburgGraph.EdgeCount">EdgeCount</h4>
+  <div class="markdown level1 summary"><p>拓扑边的数量</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int EdgeCount</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="JRH_Graphs_GothenburgGraph_Hexagons" data-uid="JRH.Graphs.GothenburgGraph.Hexagons">Hexagons</h4>
+  <div class="markdown level1 summary"><p>20个核心六边形</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int[] Hexagons</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="JRH_Graphs_GothenburgGraph_NodeCount" data-uid="JRH.Graphs.GothenburgGraph.NodeCount">NodeCount</h4>
+  <div class="markdown level1 summary"><p>拓扑节点数量</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int NodeCount</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="JRH_Graphs_GothenburgGraph_Pentagons" data-uid="JRH.Graphs.GothenburgGraph.Pentagons">Pentagons</h4>
+  <div class="markdown level1 summary"><p>12个核心五边形</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int[] Pentagons</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="JRH_Graphs_GothenburgGraph_TriangleCount" data-uid="JRH.Graphs.GothenburgGraph.TriangleCount">TriangleCount</h4>
+  <div class="markdown level1 summary"><p>拓扑小三角形数量</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TriangleCount</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="JRH_Graphs_GothenburgGraph_TriangleEdges" data-uid="JRH.Graphs.GothenburgGraph.TriangleEdges">TriangleEdges</h4>
+  <div class="markdown level1 summary"><p>拓扑边的数组</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;TriangleEdge&gt; TriangleEdges</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="JRH.Graphs.TriangleEdge.html">TriangleEdge</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="JRH_Graphs_GothenburgGraph_Triangles" data-uid="JRH.Graphs.GothenburgGraph.Triangles">Triangles</h4>
+  <div class="markdown level1 summary"><p>拓扑大三角形的数据</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;TriangleGraphDescriptor&gt; Triangles</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="JRH.Graphs.TriangleGraphDescriptor.html">TriangleGraphDescriptor</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="JRH_Graphs_GothenburgGraph_Deserialize_" data-uid="JRH.Graphs.GothenburgGraph.Deserialize*"></a>
+  <h4 id="JRH_Graphs_GothenburgGraph_Deserialize_System_Byte___" data-uid="JRH.Graphs.GothenburgGraph.Deserialize(System.Byte[])">Deserialize(Byte[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Deserialize(byte[] datas)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">datas</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="JRH.Graphs.PolyhedronGraph.html#JRH_Graphs_PolyhedronGraph_Deserialize_System_Byte___">PolyhedronGraph.Deserialize(Byte[])</a></div>
+  
+  
+  <a id="JRH_Graphs_GothenburgGraph_GetPolygonNodeAt_" data-uid="JRH.Graphs.GothenburgGraph.GetPolygonNodeAt*"></a>
+  <h4 id="JRH_Graphs_GothenburgGraph_GetPolygonNodeAt_UnityEngine_Vector3_UnityEngine_Transform_" data-uid="JRH.Graphs.GothenburgGraph.GetPolygonNodeAt(UnityEngine.Vector3,UnityEngine.Transform)">GetPolygonNodeAt(Vector3, Transform)</h4>
+  <div class="markdown level1 summary"><p>获取距离某个世界空间坐标最近的节点</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PolygonNode GetPolygonNodeAt(Vector3 targetPos, Transform planetTransform)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">targetPos</span></td>
+        <td><p>世界空间坐标</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">planetTransform</span></td>
+        <td><p>渲染此哥德堡多面体的GothenburgGraphRenderer所在GameObject的Transform</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="JRH.Graphs.PolygonNode.html">PolygonNode</a></td>
+        <td><p>所取到的节点</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="JRH_Graphs_GothenburgGraph_Instantiate_" data-uid="JRH.Graphs.GothenburgGraph.Instantiate*"></a>
+  <h4 id="JRH_Graphs_GothenburgGraph_Instantiate_System_Int32_" data-uid="JRH.Graphs.GothenburgGraph.Instantiate(System.Int32)">Instantiate(Int32)</h4>
+  <div class="markdown level1 summary"><p>生成一个新的哥德堡多面体</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GothenburgGraph Instantiate(int subdivision)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">subdivision</span></td>
+        <td><p>细分等级</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="JRH.Graphs.GothenburgGraph.html">GothenburgGraph</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="JRH_Graphs_GothenburgGraph_LoadGothenburgGraph_" data-uid="JRH.Graphs.GothenburgGraph.LoadGothenburgGraph*"></a>
+  <h4 id="JRH_Graphs_GothenburgGraph_LoadGothenburgGraph_System_String_System_String_" data-uid="JRH.Graphs.GothenburgGraph.LoadGothenburgGraph(System.String,System.String)">LoadGothenburgGraph(String, String)</h4>
+  <div class="markdown level1 summary"><p>读取指定路径指定名称的多面体数据到一个新实例
+读取文件为Asset/StreamingAssets/路径/名称.planetGraph</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GothenburgGraph LoadGothenburgGraph(string savingPath, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">savingPath</span></td>
+        <td><p>路径(相对于Application.streamingAssetsPath，也就是Asset/StreamingAssets)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>名称</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="JRH.Graphs.GothenburgGraph.html">GothenburgGraph</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="JRH_Graphs_GothenburgGraph_SaveGothenburgGraph_" data-uid="JRH.Graphs.GothenburgGraph.SaveGothenburgGraph*"></a>
+  <h4 id="JRH_Graphs_GothenburgGraph_SaveGothenburgGraph_System_String_System_String_" data-uid="JRH.Graphs.GothenburgGraph.SaveGothenburgGraph(System.String,System.String)">SaveGothenburgGraph(String, String)</h4>
+  <div class="markdown level1 summary"><p>将此多面体以指定名称保存到指定路径
+结果为Asset/StreamingAssets/路径/名称.planetGraph</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SaveGothenburgGraph(string savingPath, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">savingPath</span></td>
+        <td><p>路径(相对于Application.streamingAssetsPath，也就是Asset/StreamingAssets)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>名称</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="JRH_Graphs_GothenburgGraph_Serialize_" data-uid="JRH.Graphs.GothenburgGraph.Serialize*"></a>
+  <h4 id="JRH_Graphs_GothenburgGraph_Serialize" data-uid="JRH.Graphs.GothenburgGraph.Serialize">Serialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override byte[] Serialize()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="JRH.Graphs.PolyhedronGraph.html#JRH_Graphs_PolyhedronGraph_Serialize">PolyhedronGraph.Serialize()</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="JRH.Serialize.ISerializable.html">ISerializable</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

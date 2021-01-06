@@ -1,0 +1,606 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/BlackAngle/Desktop/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.Art.RenderPass.AtmospherePass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.Art.RenderPass.AtmospherePass.html",
+          "hash": "e+PlO0TxQjbkKTI5CKrwEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.Art.RenderPass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.Art.RenderPass.html",
+          "hash": "5uHk8XHZ866kx/cB5WZjAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.Collection.Pair-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.Collection.Pair-2.html",
+          "hash": "PYOaaJaboMV3OcPzsAAoSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.Collection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.Collection.html",
+          "hash": "LmF2wYGgQmhGJ9PQ6zNhxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.Graphs.GothenburgGraph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.Graphs.GothenburgGraph.html",
+          "hash": "7Uvn8FPEn6C1G+6qbBqUeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.Graphs.GothenburgGraphFilter.GraphCreated.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.Graphs.GothenburgGraphFilter.GraphCreated.html",
+          "hash": "SzWmUUnGYIkWH7xSj3Lw2A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.Graphs.GothenburgGraphFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.Graphs.GothenburgGraphFilter.html",
+          "hash": "NXHhc2hiB1KPbJcmfMiULg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.Graphs.INodeData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.Graphs.INodeData.html",
+          "hash": "Yj8DogMNUcDwvjzkFjqMuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.Graphs.NodeData.DistrictProperty.LandformType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.Graphs.NodeData.DistrictProperty.LandformType.html",
+          "hash": "SUTCxzPWQil90WBEI7DN/w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.Graphs.NodeData.DistrictProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.Graphs.NodeData.DistrictProperty.html",
+          "hash": "xypwDHK2fTaKw3Edce2Tdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.Graphs.NodeData.ModelPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.Graphs.NodeData.ModelPosition.html",
+          "hash": "pDfly9cO1tjeL6TEKqT35A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.Graphs.NodeData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.Graphs.NodeData.html",
+          "hash": "LUoOXnGA+hkpMMX3LUGxhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.Graphs.PolygonNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.Graphs.PolygonNode.html",
+          "hash": "/R5CmKDDFGGU7hHCEudSnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.Graphs.PolygonNodeDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.Graphs.PolygonNodeDescriptor.html",
+          "hash": "fOx+yrj5/zxhTqNg+J9FEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.Graphs.PolyhedronGraph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.Graphs.PolyhedronGraph.html",
+          "hash": "usyl4keTA16wsmOco0wFjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.Graphs.TriangleEdge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.Graphs.TriangleEdge.html",
+          "hash": "K9Pc8+GDIu34FVY2CTvoOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.Graphs.TriangleGraphDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.Graphs.TriangleGraphDescriptor.html",
+          "hash": "+UrmP0bjps1peAjIKSDJCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.Graphs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.Graphs.html",
+          "hash": "wLw/c8wgfMOsKzXOoU/Vjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.Rendering.GothenburgGraphRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.Rendering.GothenburgGraphRenderer.html",
+          "hash": "VF7ynYD+a6qZrlLhWAXbRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.Rendering.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.Rendering.html",
+          "hash": "f+ThNg5+to9m69oGeIOOgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.SelfRotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.SelfRotation.html",
+          "hash": "tLzvHDCgfCiYhVWCzJbRuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.Serialize.ISerializable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.Serialize.ISerializable.html",
+          "hash": "O55SGooKmVRuFMadHKwsZw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.Serialize.SerializeByteQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.Serialize.SerializeByteQueue.html",
+          "hash": "BMf5xZZFAKutFW32EEywcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.Serialize.SerializeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.Serialize.SerializeExtensions.html",
+          "hash": "oipnnZ1YR3pPOxL+Ao/wPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.Serialize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.Serialize.html",
+          "hash": "gvNsSANLS1K0XNnVcouj7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.TestTool.DirectionShow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.TestTool.DirectionShow.html",
+          "hash": "u3VdWdS08ujX87oSJ5CZaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.TestTool.PlanetEditView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.TestTool.PlanetEditView.html",
+          "hash": "DYSp5LpAzYEpZP/S6/7oRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.TestTool.TestGOInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.TestTool.TestGOInformation.html",
+          "hash": "5wUUG+58MRdp/zFzcj6IUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.TestTool.VertexGO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.TestTool.VertexGO.html",
+          "hash": "V43Aj8Wu6UjZTsjVQdnL0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.TestTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.TestTool.html",
+          "hash": "KTd7q6YBwp2W7yKRbRqwCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JRH.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JRH.html",
+          "hash": "NA4+LrpF5NvLyYofmGLajg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MalbersAnimations.Events.UnityEventRaiser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MalbersAnimations.Events.UnityEventRaiser.html",
+          "hash": "LfpVI8OTiSlhDlJ0nzxkxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MalbersAnimations.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MalbersAnimations.Events.html",
+          "hash": "scAeyUMUINjTfXWYcsUIag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MalbersAnimations.Readme.Section.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MalbersAnimations.Readme.Section.html",
+          "hash": "YH+za6fUEwSaubaLBy6EoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MalbersAnimations.Readme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MalbersAnimations.Readme.html",
+          "hash": "j4Ik85XxHY+7GRQKoXhDAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MalbersAnimations.TransformOffset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MalbersAnimations.TransformOffset.html",
+          "hash": "uSYzt7OTAo4Y6QIO92oqdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MalbersAnimations.UnityUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MalbersAnimations.UnityUtils.html",
+          "hash": "eW9lGsi71Ydd/lb24RfNTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MalbersAnimations.UseTransform.UpdateMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MalbersAnimations.UseTransform.UpdateMode.html",
+          "hash": "qTaVVAaBmhbsLjrFNUm7PA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MalbersAnimations.UseTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MalbersAnimations.UseTransform.html",
+          "hash": "j7BdVLC33AZO+YWoBMtjpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MalbersAnimations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MalbersAnimations.html",
+          "hash": "cJY1f89b8p5NEezvVyMa/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "Fez2LAJlA/LcxwsSJvD1Lg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "7coEbzHEDfUcofVHB0C1KA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "DBXtMHwGaiVF5p07T4QIuw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "tQO1DM8dSupldq6BULlBCg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 40,
+          "skipped_file_count": 15
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

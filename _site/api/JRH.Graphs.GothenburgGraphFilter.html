@@ -1,0 +1,413 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class GothenburgGraphFilter
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class GothenburgGraphFilter
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="JRH.Graphs.GothenburgGraphFilter">
+  
+  
+  <h1 id="JRH_Graphs_GothenburgGraphFilter" data-uid="JRH.Graphs.GothenburgGraphFilter" class="text-break">Class GothenburgGraphFilter
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">GothenburgGraphFilter</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="JRH.Graphs.html">JRH.Graphs</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="JRH_Graphs_GothenburgGraphFilter_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExecuteAlways]
+[RequireComponent(typeof(GothenburgGraphRenderer))]
+public class GothenburgGraphFilter : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="JRH_Graphs_GothenburgGraphFilter_ggr" data-uid="JRH.Graphs.GothenburgGraphFilter.ggr">ggr</h4>
+  <div class="markdown level1 summary"><p>同物体下对应的生成星球网格用的Renderer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GothenburgGraphRenderer ggr</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="JRH.Rendering.GothenburgGraphRenderer.html">GothenburgGraphRenderer</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="JRH_Graphs_GothenburgGraphFilter_GothenburgGraph" data-uid="JRH.Graphs.GothenburgGraphFilter.GothenburgGraph">GothenburgGraph</h4>
+  <div class="markdown level1 summary"><p>星球数据，取星球地块节点和对节点进行操作时使用</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GothenburgGraph GothenburgGraph</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="JRH.Graphs.GothenburgGraph.html">GothenburgGraph</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="JRH_Graphs_GothenburgGraphFilter_graphCreated" data-uid="JRH.Graphs.GothenburgGraphFilter.graphCreated">graphCreated</h4>
+  <div class="markdown level1 summary"><p>星球数据结构是否已生成完毕，（不应当改动这个值）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool graphCreated</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="JRH_Graphs_GothenburgGraphFilter_graphCreating" data-uid="JRH.Graphs.GothenburgGraphFilter.graphCreating">graphCreating</h4>
+  <div class="markdown level1 summary"><p>星球数据结构是否正在生成中，（不应当改动这个值）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool graphCreating</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="JRH_Graphs_GothenburgGraphFilter_planetName" data-uid="JRH.Graphs.GothenburgGraphFilter.planetName">planetName</h4>
+  <div class="markdown level1 summary"><p>星球文件的名称</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string planetName</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="JRH_Graphs_GothenburgGraphFilter_planetSize" data-uid="JRH.Graphs.GothenburgGraphFilter.planetSize">planetSize</h4>
+  <div class="markdown level1 summary"><p>星球细分大小</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int planetSize</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="JRH_Graphs_GothenburgGraphFilter_savingPath" data-uid="JRH.Graphs.GothenburgGraphFilter.savingPath">savingPath</h4>
+  <div class="markdown level1 summary"><p>相对于StreamingAssetsPath的保存路径</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string savingPath</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="JRH_Graphs_GothenburgGraphFilter_subDivision" data-uid="JRH.Graphs.GothenburgGraphFilter.subDivision">subDivision</h4>
+  <div class="markdown level1 summary"><p>星球细分数，应当改动planetSize而不是此值</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HideInInspector]
+public int subDivision</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="JRH_Graphs_GothenburgGraphFilter_SubDivision_" data-uid="JRH.Graphs.GothenburgGraphFilter.SubDivision*"></a>
+  <h4 id="JRH_Graphs_GothenburgGraphFilter_SubDivision" data-uid="JRH.Graphs.GothenburgGraphFilter.SubDivision">SubDivision</h4>
+  <div class="markdown level1 summary"><p>星球细分数，应当改动planetSize而不是此值</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SubDivision { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="JRH_Graphs_GothenburgGraphFilter_CreateGothenburgGraph_" data-uid="JRH.Graphs.GothenburgGraphFilter.CreateGothenburgGraph*"></a>
+  <h4 id="JRH_Graphs_GothenburgGraphFilter_CreateGothenburgGraph" data-uid="JRH.Graphs.GothenburgGraphFilter.CreateGothenburgGraph">CreateGothenburgGraph()</h4>
+  <div class="markdown level1 summary"><p>以目前设定的细分数生成新的哥德堡多面体（会阻塞主进程）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreateGothenburgGraph()</code></pre>
+  </div>
+  
+  
+  <a id="JRH_Graphs_GothenburgGraphFilter_CreateGothenburgGraphAsync_" data-uid="JRH.Graphs.GothenburgGraphFilter.CreateGothenburgGraphAsync*"></a>
+  <h4 id="JRH_Graphs_GothenburgGraphFilter_CreateGothenburgGraphAsync" data-uid="JRH.Graphs.GothenburgGraphFilter.CreateGothenburgGraphAsync">CreateGothenburgGraphAsync()</h4>
+  <div class="markdown level1 summary"><p>以目前设定的细分数异步生成新的哥德堡多面体</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreateGothenburgGraphAsync()</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="JRH_Graphs_GothenburgGraphFilter_AfterCreated" data-uid="JRH.Graphs.GothenburgGraphFilter.AfterCreated">AfterCreated</h4>
+  <div class="markdown level1 summary"><p>一个新的哥德堡多面体生成后触发的事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event GothenburgGraphFilter.GraphCreated AfterCreated</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="JRH.Graphs.GothenburgGraphFilter.GraphCreated.html">GothenburgGraphFilter.GraphCreated</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
